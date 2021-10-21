@@ -4,19 +4,26 @@ body{
     background: -webkit-linear-gradient(to right, ivory, #494a4b);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, ivory, #494a4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
+*{
+    padding: 0;
+    margin: 0;
+}
 .column{
-    float: left;
+    padding: 1.25%;
 }
 
 .left{
+    float: left;
     position: relative;
     top: 0%;
-    width: 25%
+    width: 25%;
 }
 
 .right{
-    width: 75%
+    float: right;
+    position: relative;
+    top: 0%;
+    width: 70%;
 }
 
 header {
@@ -28,7 +35,7 @@ header {
 }
 
 .headerBackground{
-    background: url(./Img/1.png);
+    background: url(./Img/headerBackground.png);
     background-repeat: no-repeat;  
     background-size: cover;
 }
@@ -57,6 +64,10 @@ header h1 {
     padding-left: 15px;
 }
 
+.infoItem{
+    margin-top: 5px;
+}
+
 .infoIcon{
     vertical-align: middle;
     width: 1.5em;
@@ -72,3 +83,22 @@ header h1 {
     height: 70px;
     width: 30%;
 }
+
+.proyectCard{
+    background-color: antiquewhite;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px 5px;
+    border-width: 2px;
+}
+
+/* unvisited link */
+a:link {
+    color: #004080;
+  }
+  
+/* visited link */
+a:visited {
+    color: #004080;
+  }
+  
