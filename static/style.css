@@ -1,0 +1,74 @@
+body{
+    font-family: sans-serif;
+    background: ghostwhite;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, ivory, #494a4b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, ivory, #494a4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.column{
+    float: left;
+}
+
+.left{
+    position: relative;
+    top: 0%;
+    width: 25%
+}
+
+.right{
+    width: 75%
+}
+
+header {
+    text-align: right;
+    color: ivory;
+    height: 30vh;
+    width: 100%;
+    position: relative;
+}
+
+.headerBackground{
+    background: url(./Img/1.png);
+    background-repeat: no-repeat;  
+    background-size: cover;
+}
+
+header h1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 5%;
+}
+
+.headerImg{
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    height: 25vh;
+}
+
+.infoTitle{
+    position: relative;
+    padding: 10px;
+}
+
+.personalInfo{
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.infoIcon{
+    vertical-align: middle;
+    width: 1.5em;
+    height: 1.5em;
+    fill: black;
+}
+
+.skillSet{
+    position: relative;
+}
+
+.skills{
+    height: 70px;
+    width: 30%;
+}
